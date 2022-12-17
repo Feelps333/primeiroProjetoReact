@@ -2,9 +2,10 @@ import { Header } from './components/header';
 import { ProjetoContador } from './components/projetocontador';
 
 const App = () => {
+  let user: string = 'Felipe'
   return (
     <div>
-      <Header title="Este é um exemplo"/>
+      <Header title={user}/>
       <ProjetoContador/>
     </div>
   );
