@@ -1,16 +1,15 @@
 import { Header } from './components/header';
 import { ProjetoContador } from './components/projetocontador';
 import { Honda } from './components/Ronda';
+import { Formulario } from './components/from'
 
 const App = () => {
-  let user: string = 'Felipe'
   let userADM: string = 'Felipe ADM'
   let verificacao: boolean = true
 
   if(verificacao){return (
     <div>
-      <Header title={user}/>
-      <Honda/>
+      <Formulario/>
     </div>
   )}else {
     return (
