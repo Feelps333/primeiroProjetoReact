@@ -2,6 +2,7 @@ import { Header } from './components/header';
 import { ProjetoContador } from './components/projetocontador';
 import { Honda } from './components/Ronda';
 import { Formulario } from './components/from'
+import { List } from './components/Lista'
 
 const App = () => {
   let userADM: string = 'Felipe ADM'
@@ -10,6 +11,7 @@ const App = () => {
   if(verificacao){return (
     <div>
       <Formulario/>
+      <List/>
     </div>
   )}else {
     return (
