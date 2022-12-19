@@ -13,7 +13,7 @@ export const Honda = () => {
     setHondaConcluidas(HondaConcluidas + 1)
   }
   const handleClickHonda = () => {
-    setLibera(true)
+    setLibera(!libera)
   }
   return(
     <div>
