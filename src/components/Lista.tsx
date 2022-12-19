@@ -5,7 +5,7 @@ type Props = {
   }
 }
 
-export const List = ({ data }: Props) => {
+export const List = () => {
   let list = [
     'felipe',
     'franca',
