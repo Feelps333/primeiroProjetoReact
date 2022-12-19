@@ -17,7 +17,8 @@ const App = () => {
     <div>
       <Formulario/>
       <List/>
-      <Honda/>
+      <button onClick={handleClick}>mostra</button>
+      {show && <Honda/> }
     </div>
   )}else {
     return (
