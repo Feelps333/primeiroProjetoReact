@@ -1,4 +1,4 @@
-import styles from '../components/Botao/styles.module.css';
+import styles from './styles.module.css';
 
 export const Botao = () => {
   return (

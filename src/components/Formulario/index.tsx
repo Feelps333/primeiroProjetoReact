@@ -1,4 +1,5 @@
 import React, { useState} from 'react'
+import style from './style.module.css';
 
 export const Formulario = () => {
   const [name, setName] = useState("")
@@ -11,7 +12,7 @@ export const Formulario = () => {
     setEmail(event.target.value)
   }
   return(
-    <div>
+    <div className={style.form}>
       Digite seu name: <br />
       <input type="text" value={name} onChange={handleInputName}/> <br />
       seu nome é {name} <br />
