@@ -9,7 +9,7 @@ import { Botao} from './components/Botao'
 const App = () => {
   return (
     <div>
-      <Botao/>
+      <Formulario/>
     </div>
   )
 }
