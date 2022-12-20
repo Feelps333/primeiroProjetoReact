@@ -1,9 +1,9 @@
-import '../components/Botao/style.css';
+import styles from './styles.module.css';
 
 export const Botao = () => {
   return (
     <div>
-      <button className='botao'>Clique aqui</button>
+      <button className={styles.botao}>Clique aqui</button>
     </div>
   )
 }
