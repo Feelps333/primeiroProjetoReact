@@ -8,17 +8,17 @@ import { useState } from 'react';
 const App = () => {
   let userADM: string = 'Felipe ADM'
   let verificacao: boolean = true
-  const [show, setShow] = useState(false);
+  const [clicked, setClicked ] = useState(false);
 
   const handleClick = () => {
-    setShow(!show)
+    setClicked(!clicked)
   }
   if(verificacao){return (
     <div>
       <Formulario/>
       <List/>
-      <button onClick={handleClick}>mostra</button>
-      {show && <Honda/> }
+      <button onClick={handleClick} style={{backgroundColor:clicked ? '#0000ff': '#ff0000'}}>mostra</button>
+      {clicked && <Honda/> }
     </div>
   )}else {
     return (
