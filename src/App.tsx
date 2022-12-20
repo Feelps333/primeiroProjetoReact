@@ -1,17 +1,10 @@
-import { Header } from './components/header';
-import { ProjetoContador } from './components/projetocontador';
-import { Honda } from './components/Ronda';
-import { Formulario } from './components/Formulario'
-import { List } from './components/Lista'
-import { useState } from 'react';
-import { Botao} from './components/Botao'
+import * as C from './AppStyles';
 
 const App = () => {
   return (
-    <div>
-      <Formulario/>
-      <Botao/>
-    </div>
-  )
+    <C.Container>Teste
+      <C.Botao>clique</C.Botao>
+    </C.Container>
+  );
 }
 export default App;
